@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
+  get 'static_page/home'
+
+  get 'static_page/kingsong1'
+
 Rails.application.routes.draw do
+  get 'static_page/home'
+
+  get 'static_page/kingsong1'
+
  root 'application#hello'
 end 
   # The priority is based upon order of creation: first created -> highest priority.
